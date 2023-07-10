@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(255, 254, 254);
+            color: rgb(13, 13, 21);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+  background-color: #333;
+  
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  font-size: 3rem;
+  margin-left: 80px;
+  position: relative;
+}
+
+.left::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; 
+  z-index: -1;
+}
+
+        main hr {
+            border: 0;
+            background: rgb(120, 120, 186);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            margin: 30px 0;
+        }
+
+        #simran {
+            color: rgb(86, 86, 139);
+        }
+
+        #element {
+            color: rgb(86, 86, 139);
+        }
+
+        .rightSection {
+            margin: 30px 0;
+        }
+
+        .secondSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            padding-left: 80px;
+            padding-right: 80px;
+
+        }
+
+        .intror {
+            font-size: 1.05rem;
+            margin-left: 180px;
+            text-align: justify;
+
+        }
+
+        .thirdSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            padding-left: 55px;
+
+
+
+        }
+
+        .skillsl {
+            font-size: 1.05rem;
+            margin-left: 30px;
+            padding-right: 120px;
+            text-align: justify;
+
+
+        }
+
+        .skillsr {
+            margin-right: 80px;
+
+
+        }
+
+        .fourthSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            padding-left: 55px;
+
+        }
+
+        .projectsl {
+
+            padding-right: 55px;
+            padding-left: 120px;
+        }
+
+        .projectsr {
+            font-size: 1.05rem;
+            margin-left: 100px;
+
+            padding-right: 80px;
+            padding-left: 60px;
+            text-align: justify;
+        }
+
+        .lists a {
+            text-align: justified;
+            text-decoration: none;
+            color: rgb(63, 63, 118);
+
+        }
+
+        .fifthSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+
+
+        }
+
+        .Expl {
+            font-size: 1.05rem;
+            margin-left: 80px;
+
+            padding-right: 120px;
+
+            text-align: justify;
+        }
+
+        .Expl a {
+            text-align: justified;
+            text-decoration: none;
+            color: rgb(63, 63, 118);
+
+        }
+
+        .Expr {
+
+            padding-right: 85px;
+            padding-left: 30px;
+        }
+         .sixthSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+
+
+        }
+
+        .edur {
+            font-size: 1.05rem;
+            margin-left: 80px;
+
+            padding-right: 80px;
+
+            text-align: justify;
+        }
+
+        .edul {
+            padding-right: 35px;
+            padding-left: 90px;
+        }
+        .seventhSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+
+
+        }
+
+        .crfl {
+            font-size: 1.05rem;
+            margin-left: 80px;
+
+            padding-right: 120px;
+
+            text-align: justify;
+        }
+
+        .crfr {
+            padding-right: 60px;
+            padding-left: 30px;
+        }
+        .crfl a{
+            text-decoration: none;
+            color: rgb(63, 63, 118);
+        }
+        footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact h3 {
+  margin-bottom: 10px;
+}
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  margin-bottom: 5px;
+}
+
+.contact ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact ul li a:hover {
+  text-decoration: underline;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="left">Simran's Portfolio</div>
+        </div>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, I'm<span id="simran"> Simran Roy</span>
+                <div> and I'm currently pursuing BCA. An enthusiastic </div><span id="element"></span>
+            </div>
+            <div class="rightSection"><img src="intro.png" height="400px" width="500px" alt="error"></div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <div class="introl"><img src="introl.jpg" height="300px" width="300px" alt="error"></div>
+            <div class="intror">
+                <h1>A brief introduction...</h1><br>Hello People! I am Simran Roy who is currently pursuing Bachelor's
+                in Computer Application from Jagannath Community College ,Delhi. It is a three year course which will be
+                completed in 2023 as I joined in the year 2020. This has developed my fascination for coding in various
+                languages as their are numerous perks of every language that I have learnt. Using the knowlegde that I
+                have gained I want to become a FullStack Developer. I have completed my higher education from Science
+                background hence I have interest in mathematics and physics.
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <div class="skillsl">
+                <h1>Skills</h1><br>Being a former student of Science with no Computer Science I thought was a
+                diadvantage for me to begin with doing something specifically in it. But BCA is something that anyone
+                can opt be it from any course the student belongs. To begin with I started with C language and gradually
+                shifted to C++ so I have a keen knowledge about it. But, the frontend languages was included from the
+                starting semester itself so I was more inclined towards HTML, CSS and still learning the updation being
+                in them. On the otherhand, backend development is not something I'm intersted in but I'm passionate
+                about FullStack developer so have to work on the both ends.Furthermore, I also have knowlegdein python
+                and Java and working on my Data Structures.
+            </div>
+            <div class="skillsr"><img src="skills.png" height="400px" width="400px" alt="error"></div>
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <div class="projectl"><img src="projects.jpg" height="350px" width="350px" alt="" error></div>
+            <div class="projectsr">
+                <h1>Projects</h1><br>As a part of the course curriculum I was assigned to do two projects the first one
+                I did was in the second year which dealt with C# language which included blinking LEDs using Arduino
+                board an the other one was in the third year which was about developing a E-fashion web application from
+                which I learnt doing both backend and frontend. I also learnt Hibernate a new object based database
+                management using which the data storing coding was reduced and had become easy. These were my official
+                projects apart from this I have also designed few projects in order to enhance my coding skills which I
+                have uploaded on github the links for which are given below:<br><br>
+                <div class="lists"><i><a href="https://github.com/Simran1R2/Amateur.git">Beginner project</a><br><a
+                            href="IoT project Simran Roy.docx">IoT Project</a> </div></i>
+            </div>
+
+        </section>
+        <hr>
+        <section class="fifthSection">
+            <div class="Expl">
+                <h1>Past Experience...</h1><br>Being a newbee in this technical world and a fresher I have less work
+                experience. I have done an internship for two months at an educational institution<i>(CLEAREXAM)</i> as
+                an <i>IT operator</i>. I had to work on just with the data handling part of the company. I worked in a
+                team which helped me in enhancing my teamwork capabilities also to balance my individual work alongwith
+                group participation. On the additional side, I also have tutoring experience which for me is a plus
+                point and a fun way of learning.<br>The internship certificate for the tenure is attached
+                below:<br><br><a href="Internship Ctf.pdf">Internship Certificate</a>
+            </div>
+            <div class="Expr"><img src="exp.jpg" height="400px" width="350px" alt="error"></div>
+        </section>
+        <hr>
+        <section class="sixthSection">
+            <div class="edul">
+                <img src="education.png" height="300" width="300" alt="error">
+            </div>
+            <div class="edur"><h1>Education</h1>As mentioned above I have done my Bachelor's in Computer Application from Jagannath
+                Community College <i>(Delhi)</i> which will be over in 2023. I completed my Schooling through CBSE board
+                and Science was my stream back then from my hometown which is Siliguri<i>(West Bengal)</i></div>
+        </section>
+        <hr>
+        <section class="seventhSection">
+            <div class="crfl">
+                <h1>Certifications</h1>Following are the ceritifications that I have completed as far as now few I have earned through college and some by myself apart from the curriculum.<br><br><i><a href="CEPTA training.pdf">FullStack Training Session </a><br><a href="Technical Support Fundamentals certificate.pdf">Technical Support(Google)</a></i>
+            </div>
+            <div class="crfr">
+                <img src="Certificate.jpg" height="400" width="400" alt="error">
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="contact"> <h3>Contact Information</h3>
+            <ul>
+              <li>Email id: <a href="mailto:roysimran3009@gmail.com">roysimran3009@gmail.com</a></li>              
+              <li>LinkedIn id:<a href="https://linkedin.com/in/simran-roy-sr1202"> simran-roy-sr1202</a></li>
+              <li>GitHub id:<a href="https://github.com/Simran1R2"> Simran1R2</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', ' FullStack Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
